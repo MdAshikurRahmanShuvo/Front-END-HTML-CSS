@@ -1,0 +1,927 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing:border box;
+    font-family: "Inter", serif;
+}
+ul,li{
+    list-style:none;
+}
+p,a{
+    text-decoration: none;
+    color:#000;
+}
+.container
+{
+    width: 1152px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Navbar CSS */
+#navbar .container{
+    width: 1152px;
+    background-color: #F5F7FA;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 161px;
+}
+#navbar .container .navbar_container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+}
+
+#navbar .container .navbar_container .navbar_logo
+{
+    width:20%;
+}
+#navbar .container .navbar_container .navbar_items
+{
+    width:60%;
+    padding-left: 120px;
+    padding-right: 90px;
+}
+#navbar .container .navbar_container .navbar_items ul
+{
+    display: flex;
+}
+#navbar .container .navbar_container .navbar_items ul li
+{
+    padding-right: 35px;
+}
+#navbar .container .navbar_container .navbar_items ul li a
+{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+#navbar .container .navbar_container .navbar_button
+{
+    width:20%;
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar .container .navbar_container .navbar_button ul
+{
+    display: flex;
+}
+#navbar .container .navbar_container .navbar_button ul li a
+{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+#navbar .container .navbar_container .navbar_button ul li .log_in
+{
+    padding:10px 20px;
+    padding-right: 14px;
+}
+#navbar .container .navbar_container .navbar_button ul li .log_in a
+{
+    color: #4CAF4F;
+}
+#navbar .container .navbar_container .navbar_button ul li .sign_up
+{
+    padding:10px 20px;
+    background-color: #4CAF4F;
+    width:91px;
+    text-align: center;
+    border-radius: 6px;
+}
+#navbar .container .navbar_container .navbar_button ul li .sign_up a
+{
+    color: #FFF;
+}
+
+/* banner CSS */
+#banner
+{
+    background-color: #F5F7FA;
+
+}
+#banner .container .banner_wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+#banner .container .banner_wrapper .banner_left
+{
+    margin-bottom: 161px;
+}
+#banner .container .banner_wrapper .banner_right
+{
+    margin-bottom: 96px;
+}
+#banner .container .banner_wrapper .banner_left h2
+{
+    font-family: "Inter", serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height:76px;
+    color: #000;
+    margin-bottom:16px;
+}
+#banner .container .banner_wrapper .banner_left h2 span
+{
+    color: #4CAF4F;
+    display: block;
+}
+#banner .container .banner_wrapper .banner_left .first
+{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height:24px;
+    color: #000;
+    margin-bottom: 32px;
+}
+#banner .container .banner_wrapper .banner_left .button a
+{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height:24px;
+    color: #FFF;
+    padding:14px 32px;
+    background-color: #4CAF4F;
+}
+
+/* Client Css */
+#client
+{
+    margin-top:40px;
+}
+#client .container .client_wrapper h2{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600;
+    color:#000;
+    text-align: center;
+}
+
+#client .container .client_wrapper p{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color:#000;
+    text-align: center;
+    margin-top:8px;
+    margin-bottom:16px;
+}
+#client .container .client_wrapper .client_logo .logo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin-bottom: 40px;
+}
+
+
+/* Community CSS */
+#community .container .community_top
+{
+    text-align: center;
+}
+#community .container .community_top h2
+{
+    font-family: "Inter", serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+#community .container .community_top h2 span
+{
+    display:block;
+}
+#community .container .community_top p
+{
+    font-family: "Inter", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top:8px;
+}
+#community .container .community_bottom
+{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+#community .container .community_bottom .first
+{
+    padding-top:10px;
+    padding-bottom: 24px;
+    margin-right: 128px;
+    margin-bottom:10px;
+}
+#community .container .community_bottom .second
+{
+    padding-top:10px;
+    padding-bottom: 24px;
+    margin-right: 128px;
+    margin-bottom:10px;
+}
+#community .container .community_bottom .third
+{
+    padding-top:10px;
+    padding-bottom: 24px;
+    margin-bottom:10px;
+}
+#community .container .community_bottom .first h2 
+{
+    font-family: "Inter", serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top:16px;
+}
+#community .container .community_bottom .first p
+{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+#community .container .community_bottom .first h2 span
+{
+    display: block;
+}
+#community .container .community_bottom .first p span
+{
+    display:inline-block;
+}
+
+#community .container .community_bottom .second h2 
+{
+    font-family: "Inter", serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top:16px;
+}
+#community .container .community_bottom .second p
+{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+#community .container .community_bottom .second h2 span
+{
+    display: block;
+}
+#community .container .community_bottom .second p span
+{
+    display:inline-block;
+}
+#community .container .community_bottom .third h2 
+{
+    font-family: "Inter", serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 8px;
+    margin-top:16px;
+}
+#community .container .community_bottom .third p
+{
+    font-family: "Inter", serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
+}
+#community .container .community_bottom .third h2 span
+{
+    display: block;
+}
+#community .container .community_bottom .third p span
+{
+    display:inline-block;
+}
+
+
+/*body CSS */
+#body .container .body_wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+#body .container .body_wrapper .body_right
+{
+    padding-top:120px;
+    padding-left:50px;
+    padding-bottom: 83px;
+}
+#body .container .body_wrapper .body_right h2
+{
+    font-family: 'Inter', serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    margin-bottom: 16px;
+}
+#body .container .body_wrapper .body_right h2 span
+{
+    display: block;
+}
+#body .container .body_wrapper .body_right p
+{
+    font-family: 'Inter', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#body .container .body_wrapper .body_right h2 span
+{
+    display: block;
+}
+#body .container .body_wrapper .body_right .button
+{
+    margin-top:32px;
+}
+#body .container .body_wrapper .body_right .button p a
+{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight:500 ;
+    color: #FFF;
+    padding:14px 32px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+/*achievement CSS */
+#achievement{
+    background-color: #F5F7FA;
+}
+#achievement .container .achievement_wrapper 
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#achievement .container .achievement_wrapper .achievement_left
+{
+    padding-top:84px;
+    padding-bottom: 84px;
+    padding-right: 72px;
+}
+#achievement .container .achievement_wrapper .achievement_left h2
+{
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 600px;
+}
+#achievement .container .achievement_wrapper .achievement_left h2 span
+{
+    display: block;
+    color: #4CAF4F;
+}
+#achievement .container .achievement_wrapper .achievement_left p
+{
+        margin-top: 8px;
+}
+
+#achievement .container .achievement_wrapper .achievement_right
+{
+        padding-top: 64px;
+        padding-bottom: 64px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left
+{
+        display: flex;
+        padding-right: 30px;
+        padding-bottom: 40px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left .first .wrapper
+{
+        display: flex;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left .first
+{
+        margin-right: 30px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left .first .wrapper img
+{
+        padding-right: 16px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left .second .wrapper
+{
+        display: flex;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left .second
+{
+        margin-right: 30px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_left .second .wrapper img
+{
+        padding-right: 16px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right
+{
+        display: flex;
+        padding-right: 30px;
+}
+
+
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right
+{
+        display: flex;
+        padding-right: 30px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right .first .wrapper
+{
+        display: flex;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right .first
+{
+        margin-right: 30px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right .first .wrapper img
+{
+        padding-right: 16px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right .second .wrapper
+{
+        display: flex;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right .second
+{
+        margin-right: 30px;
+}
+#achievement .container .achievement_wrapper .achievement_right .achievement_right_right .second .wrapper img
+{
+        padding-right: 16px;
+}
+
+/* calender CSS */
+#calender .container .wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+#calender .container .wrapper .calender_right h2
+{ 
+    padding-top:63px;
+}
+#calender .container .wrapper .calender_right h2
+{ 
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;   
+    margin-bottom: 16px;
+}
+#calender .container .wrapper .calender_right h2 span
+{ 
+    display: block;  
+}
+#calender .container .wrapper .calender_right p
+{ 
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;   
+    margin-bottom: 32px;
+}
+
+#calender .container .wrapper .calender_right .button a
+{ 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+/*customer  CSS */
+#customers .container 
+{
+    margin-top: 48px;
+    background-color: #F5F7FA;
+}
+
+#customers .container .wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+#customers .container .wrapper .customers_right 
+{ 
+    margin-left: 78px;
+    padding-top: 15px;
+    padding-bottom: 33px;
+}
+#customers .container .wrapper .customers_right .first
+{ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;   
+}
+#customers .container .wrapper .customers_right h4
+{ 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;   
+    color: #4CAF4F;
+    margin-top: 16px;
+    margin-bottom :8px;
+}
+#customers .container .wrapper .customers_right .second
+{ 
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;   
+}
+#customers .container .wrapper .customers_right .logo
+{ 
+    display: flex;  
+    margin-top:32px;
+    align-items: center;
+    justify-content: center;
+}
+#customers .container .wrapper .customers_right .logo img
+{ 
+    margin-right: 41px;
+}
+#customers .container .wrapper .customers_right .logo_text 
+{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#customers .container .wrapper .customers_right .logo_text p
+{ 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4CAF4F;
+    padding-right: 8px;
+}
+#customers .container .wrapper .customers_right .logo_text i
+{ 
+    color: #4CAF4F;
+}
+#customers .container .wrapper .customers_right .logo_wrapper
+{ 
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Community CSS */
+#community .container .community_top h2
+{
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+}
+#community .container .community_top p
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+#community .container .community_top p span
+{
+    display:block;   
+}
+
+#community .container .community_bottom .wrapper
+{
+    display:flex; 
+    justify-content: space-between;
+}
+
+#community .container .community_bottom .wrapper .community_bottom_left img
+{
+    width:368px; 
+}
+
+#community .container .community_bottom .wrapper .community_bottom_left .text
+{
+    background-color: #F5F7FA; 
+    width: 317px;  
+    position: relative;
+    bottom:80px;
+    height: auto;
+    left: 25.5px;
+    border-radius: 8px;
+}
+#community .container .community_bottom .wrapper .community_bottom_left .text h2
+{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 600;
+}
+#community .container .community_bottom .wrapper .community_bottom_left .text h2 span
+{
+    display: block;
+}
+#community .container .community_bottom .wrapper .community_bottom_left .text .button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#community .container .community_bottom .wrapper .community_bottom_left .text .button p
+{
+    margin-right:8px;
+    color: #4CAF4F;
+}
+#community .container .community_bottom .wrapper .community_bottom_left .text .button i
+{
+    color: #4CAF4F;
+}
+
+
+#community .container .community_bottom .wrapper .community_bottom_middle img
+{
+    width:368px; 
+}
+
+#community .container .community_bottom .wrapper .community_bottom_middle .text
+{
+    background-color: #F5F7FA; 
+    width: 317px;  
+    position: relative;
+    bottom:80px;
+    height: auto;
+    left: 25.5px;
+    border-radius: 8px;
+}
+#community .container .community_bottom .wrapper .community_bottom_middle .text h2
+{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 600;
+}
+#community .container .community_bottom .wrapper .community_bottom_middle .text h2 span
+{
+    display: block;
+}
+#community .container .community_bottom .wrapper .community_bottom_middle .text .button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#community .container .community_bottom .wrapper .community_bottom_middle .text .button p
+{
+    margin-right:8px;
+    color: #4CAF4F;
+}
+#community .container .community_bottom .wrapper .community_bottom_middle .text .button i
+{
+    color: #4CAF4F;
+}
+
+
+#community .container .community_bottom .wrapper .community_bottom_middle
+{
+    margin-right: 24px;
+    margin-left: 24px;
+}
+
+
+#community .container .community_bottom .wrapper .community_bottom_right img
+{
+    width:368px; 
+}
+
+#community .container .community_bottom .wrapper .community_bottom_right .text
+{
+    background-color: #F5F7FA; 
+    width: 317px;  
+    position: relative;
+    bottom:80px;
+    height: auto;
+    left: 25.5px;
+    border-radius: 8px;
+}
+#community .container .community_bottom .wrapper .community_bottom_right .text h2
+{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: 600;
+}
+#community .container .community_bottom .wrapper .community_bottom_right .text h2 span
+{
+    display: block;
+}
+#community .container .community_bottom .wrapper .community_bottom_right .text .button
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#community .container .community_bottom .wrapper .community_bottom_right .text .button p
+{
+    margin-right:8px;
+    color: #4CAF4F;
+}
+#community .container .community_bottom .wrapper .community_bottom_right .text .button i
+{
+    color: #4CAF4F;
+}
+
+
+/* footer css */
+#footer .footer_top .container .wrapper .footer_top
+{
+    text-align: center;
+}
+
+#footer .footer_top .container .wrapper .footer_top h2
+{
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    margin-bottom: 32px;
+}
+#footer .footer_top .container .wrapper .footer_top h2 span
+{
+    display: block;
+}
+#footer .footer_top .container .wrapper .footer_top .button
+{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+#footer .footer_top .container .wrapper .footer_top .button 
+{
+    /* background-color: #4CAF4F; */
+    width: 178px;
+    border-radius: 4px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin:0 auto;
+    margin-bottom: 32px;
+}
+#footer .footer_top .container .wrapper .footer_top .button p a
+{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFF;
+    padding-right: 8px;
+}
+
+#footer .footer_top .container .wrapper .footer_top .button i
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFF;
+}
+
+#footer .footer_bottom
+{
+    width:100%;
+    background-color: #263238;
+    height: auto;
+}
+
+#footer .footer_bottom .container .wrapper .footer_bottom_left
+{
+    padding-top: 64px;
+    padding-bottom: 75px;
+    /* padding-right: 50px; */
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_left .first
+{
+    margin-top:40px;
+    margin-bottom: 8px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}  
+#footer .footer_bottom .container .wrapper .footer_bottom_left .second
+{
+    margin-bottom: 40px;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_left .social_link i
+{
+    margin-right: 16px;
+    color: #FFF;
+}
+#footer .footer_bottom .container .wrapper 
+{
+    display: flex;
+    justify-content: space-between;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right
+{
+    display: flex;
+    justify-content: space-between;
+    padding:64px 0;
+}
+
+#footer .footer_bottom .container .wrapper .footer_bottom_right .left
+{
+    padding-right: 30px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .left h2
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .left ul li
+{
+    margin-bottom:12px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .left ul li p a
+{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .middle
+{
+    padding-right: 30px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .middle h2
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .middle ul li
+{
+    margin-bottom:12px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .middle ul li p a
+{
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+#footer .footer_bottom .container .wrapper .footer_bottom_right .right h2
+{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .right .input
+{
+    background-color: #515B60;
+    padding:9px 87px 12px 11px;
+
+    border-radius: 6px;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .right .input input
+{
+    border: none;
+    background-color: #515B60;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .right .input input::placeholder
+{
+    color: #FFF;
+}
+#footer .footer_bottom .container .wrapper .footer_bottom_right .right .input i
+{
+    color:#9ca0a6;
+    border:none;
+    position: absolute;
+    right:385px;
+}
